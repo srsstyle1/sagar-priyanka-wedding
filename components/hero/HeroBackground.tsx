@@ -18,10 +18,12 @@ export default function HeroBackground() {
         className="absolute inset-0"
       >
         <Image
-          src="/images/couple.jpg"
+          src="/images/couple.webp"
           alt="Sagar & Priyanka"
           fill
           priority
+          quality={75}
+          sizes="100vw"
           className="object-cover object-center"
         />
       </motion.div>
