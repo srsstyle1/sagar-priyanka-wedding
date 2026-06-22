@@ -64,7 +64,7 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/opengraph-image.jpg",
         width: 1200,
         height: 630,
         alt: "Sagar & Priyanka Wedding Invitation",
@@ -84,7 +84,7 @@ export const metadata: Metadata = {
     description:
       "Together with our families, we warmly invite you to celebrate our wedding on 26 June 2026.",
 
-    images: ["/og-image.jpg"],
+    images: ["/opengraph-image.jpg"],
   },
 
   icons: {
