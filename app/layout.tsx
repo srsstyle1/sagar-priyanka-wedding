@@ -25,6 +25,8 @@ const greatVibes = Great_Vibes({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://sagar-priyanka-wedding-six.vercel.app"),
+
   title: "Sagar ❤️ Priyanka | Wedding Invitation",
 
   description:
@@ -54,7 +56,22 @@ export const metadata: Metadata = {
     title: "Sagar ❤️ Priyanka | Wedding Invitation",
 
     description:
-      "Join us as we celebrate our wedding on 26 June 2026.",
+      "Together with our families, we warmly invite you to celebrate our wedding on 26 June 2026.",
+
+    url: "https://sagar-priyanka-wedding-six.vercel.app",
+
+    siteName: "Sagar & Priyanka Wedding",
+
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Sagar & Priyanka Wedding Invitation",
+      },
+    ],
+
+    locale: "en_US",
 
     type: "website",
   },
@@ -62,10 +79,18 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title: "Sagar ❤️ Priyanka",
+    title: "Sagar ❤️ Priyanka | Wedding Invitation",
 
     description:
-      "Wedding Invitation | 26 June 2026",
+      "Together with our families, we warmly invite you to celebrate our wedding on 26 June 2026.",
+
+    images: ["/og-image.jpg"],
+  },
+
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 };
 
